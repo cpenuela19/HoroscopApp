@@ -1,0 +1,88 @@
+# =========================================
+# Android + Kotlin + Gradle + Android Studio
+# Combined (Auto + Extended)
+# =========================================
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-local/
+buildSrc/.gradle/
+
+# Local configuration (never commit)
+local.properties
+/local.properties
+
+# External Native Build
+.externalNativeBuild/
+.cxx/
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Capture outputs
+captures/
+
+# Kotlin / JetBrains
+out/
+*.kotlin_module
+
+# Logs & temp files
+*.log
+*.tmp
+*.orig
+
+# Firebase / credentials / signing keys
+google-services.json
+**/google-services.json
+*.jks
+*.keystore
+keystore.properties
+*.pem
+
+# Lint / heap dumps
+.lint/
+*.hprof
+
+# Distribution / release builds
+*.apk
+*.aab
+app/release/
+outputs/
+release/
+
+# Artifacts / compiled classes
+*.aapt
+*.dex
+*.class
+*.zip
+
+# Compose / UI tooling caches
+.compose-build/
+.ui-tooling-preview/
+**/.compose-cache/
+
+# Misc editor or system backups
+*.swp
+*.bak
+._*
+
+# Node / web tooling (optional)
+node_modules/
+
+# =========================================
+# END
+# =========================================
+
